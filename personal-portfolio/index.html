@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8d5950c21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/navin1-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
+                    <li> <a href="#portfolio">Portfolio</a> </li>
+                    <li> <a href="#contact">Contact Us</a> </li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Software Engineer</p>
+                <h1>Hi, I'm <span>Navin</span><br> Kumar From India</h1>
+            </div>
+        </div>
+    </div>
+
+  <!-- ----------------------------ABOUT--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/BEST.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Navin Kumar an Aspiring Software Engineer and a detailed oriented individual with 
+                        B.Tech CSE keenness to work in an 
+                        environment which encourages me to 
+                        succeed and grow professionally where I 
+                        can utilize my skills and knowledge 
+                        appropriately.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Designing Website</li>
+                                <li><span>Data Scientist</span><br>Working on Excel,Tableau Prep,R Studio</li>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023</span><br>Working on Web Development</li>
+                                <li><span>2022</span><br>Learned Data Science</li>
+                                <li><span>2021</span><br>Solved Technical Problems</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>B.Tech(CSE) from Lovely Professional University</li>
+                                <li><span>2018-2020</span><br>Intermediate from K.R.S.S.S.S SCHOOL</li>
+                                <li><span>2018</span><br>Senior Secondary from Trident Public SCHOOL</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ---------------------Services------------------------------ -->
+   <div id="services">
+    <div class="container">
+       <h1 class="sub-title"> My Services</h1>
+       <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Web development is the work
+            involved in developing a website 
+            for the Internet or an intranet. 
+            Web development can range from
+            developing a simple single static page
+            of plain text to complex web applications</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Game Designer</h2>
+            <p>Game design is the process of creating and 
+                shaping the mechanics, systems, and rules of a
+                 game. Games can be created for entertainment, 
+                education, exercise, or experimental purposes.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Design</h2>
+            <p>Web design encompasses many 
+                different skills and disciplines 
+                in the production and maintenance 
+                of websites.The different areas
+                 of web design include web graphic 
+                 design; user interface design; 
+                 authoring, including standardised 
+                 code and proprietary software; 
+                 user experience design; and search engine</p>
+            <a href="#">Learn more</a>
+        </div>
+       </div>
+    </div>
+   </div>
+
+ <!-- ----------------------------Portfolio------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/screenshotProject1.jpg">
+                <div class="layer">
+                    <h3>To-Do List App in javaScript</h3>
+                    <p>To-do lists are a list of tasks that an individual needs to complete or accomplish.
+                        Users add their task list and mark that task as completed or incomplete.
+                        Created with the help of HTML,CSS,javaScript.
+                    </p>
+                    <a href="https://github.com/navinkrnirala76/Todo-List-App-n-JavaScript"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/screenshotProject2.jpg">
+                <div class="layer">
+                    <h3>BookMyShow</h3>
+                    <p>BookMyShow offers showtimes, movie tickets, reviews, 
+                        trailers, concert tickets and events nearby.
+                        Created Using HTML, CSS, javaScript.
+                    </p>
+                    <a href="https://github.com/navinkrnirala76/Book-my-show"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/screenshotProject3.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>An electronic calculator is typically a 
+                        portable electronic device used to perform calculations,
+                         ranging from basic arithmetic to complex mathematics.
+                         Created Using HTML,CSS,javaScript.
+                    </p>
+                    <a href="https://github.com/navinkrnirala76/Calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- ----------------CONTACT-------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-regular fa-envelope"></i>navinkumarnirala765461@gmail.com</p>
+               <p><i class="fa-solid fa-square-phone"></i>7654618177</p>
+               <div class="social-icons">
+                <a href="https://twitter.com/navinkrnirala76"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/navinkrnirala76"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/navinkrnirala76?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="linkedin.com/in/navinkrnirala76"><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Navin, Made with <i class="fa-solid fa-heart"></i> by Navin</p>
+    </div>
+ </div>
+
+    <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+     }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwE03YkjjHqUbwDf0RyWL_qRET0JS9uD1KhweVRL29TIsHK5fbL5LwEbS07GMzUrBA9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
